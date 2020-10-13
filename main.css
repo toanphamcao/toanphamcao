@@ -1,0 +1,113 @@
+
+html {
+    font-size: 62.5;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.web {
+    width: 100%;
+    background-image: url(https://tpcn.ghouse.com.vn/wp-content/uploads/2019/02/banner-header.jpg);
+}
+.page {
+    width: 1300px;
+    max-width: 100%;
+    margin: 0 auto;
+    height: 1000px;
+}
+.page__header {
+    width: 98%;
+    height: 70px;
+    padding: 0 12px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 14px;
+}
+.page__header-logo {
+    width: 220px;
+    height: 100%;
+}
+.page__header-logo img {
+    width: 100%;
+    height: 100%;
+}
+.page__header-introduce {
+    width: 70%;
+    height: 100%;
+}
+.page__header-introduce-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.page__header-introduce-list-item {
+    margin-right: 32px;
+    margin-top: 4px;
+}
+.page__header-introduce-list-item-link {
+    color: #dddbdb;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.page__header-introduce-list-item-link-titil {
+    color: #ffffff;
+}
+.page__header-introduce-list-item-link:hover {
+    color:  #f0cf8e;
+}
+.btn-primary {
+    border: none;
+    border-radius: 20px;
+    width: 186px;
+    height: 40px;
+    background-image: linear-gradient(90deg,#caa051,#dfc18b);
+    cursor: pointer;
+}
+.btn-primary:hover  {
+    background-image: linear-gradient(90deg,#db9d28,#ddaa4a);
+}
+.page__header-introduce-btn-link {
+    color: #000;
+    font-weight: 600;
+}
+
+/* Container  */
+
+
+
+.page__container {
+     width: 500px;
+     height: 250px;
+     margin-top: 180px;
+}
+.page__container h3 {
+    font-size: 1.8rem;
+    margin-left: 60px;
+    color: #eaf1f1;
+    font-weight: 400;
+}
+.page__container h1 {
+    font-size: 5rem;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+.page__container h5 {
+    font-size: 1.1rem;
+    color: #eaf1f1;
+    font-weight: 400;
+}
+.btn-primary-btn {
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(90deg,#caa051,#dfc18b);
+    cursor: pointer;
+    margin-left: 30%;
+}
+.btn-primary-btn:hover {
+    background-image: linear-gradient(90deg,#db9d28,#ddaa4a);
+}
